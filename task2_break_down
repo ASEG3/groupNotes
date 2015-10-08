@@ -1,0 +1,11 @@
+The client want:
+  App that displays phone's current GPS position.
+  
+Consider the following:
+  1. Format of display.
+  2. Update/refresh rate of the position.
+  3. What happen when GPS is off or not available.
+
+Options:
+  1. Display GPS coordinates, or
+  2. Display on map.
