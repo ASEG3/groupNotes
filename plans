@@ -1,0 +1,52 @@
+Organisation plan
+  String teamLeader = "Matthew";
+  
+Conflict resolution plan
+  boolean conflict = true;
+  if(conflict){
+    String[] needs = expressTheNeed(needer, provider);
+    for(int i = 0; i < needs.length(); i++) {
+      if(needs[i].cannotBeMet){
+        if(talkWithTeam(conflictCase) == false){
+          return martin();
+        }
+      }
+      else{
+        return solved();
+      }
+    }
+  }
+  
+  public boolean talkWithTeam(String conflictCase){
+    switch(conflictCase){
+      case dropOut:
+        getReasonForDropOut();
+        reassignRole();
+        informMartin();
+        break;
+      case handInLate:
+        String reason = getReasonForHandInLate()
+        if(reason.notGoodEnough()){
+          reduceMarkForThatPerson(reason);
+        }
+        break;
+      case disagreePeerAssessment:
+        
+        break;
+    }
+  }
+  
+Peer assessment plan
+Roles: documentor, coder, tester, designer
+If each of us fulfil our roles, we each get exact mark.
+
+1 documentor: UMLs
+1 designer: GUIs
+3 coders: Programming
+everyone is tester at the end
+
+Development plan
+In the app_dev repo
+Now we have 2 branches: Master, app_dev
+We work on app_dev only, then later we merge it to master at the end of each sprint.
+Leader will then send Master to Martin as a release.
