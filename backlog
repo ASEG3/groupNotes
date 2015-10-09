@@ -1,0 +1,15 @@
+Product Backlog version 1
+•	As a user in general, I want to know my location, so that I won’t get lost.
+•	I need it on a map!
+•	Zoom in/out?
+•	Name of the place.
+•	Longitude and latitude positions
+•	Dynamic Compass
+•	Views (satellite, Earth, street)
+Release Backlog version 1
+1.	Display location using Longitude and latitude positions (1 hour)
+2.	Display on map with a marker (1 hour)
+3.	Display name of the place (1 hour)
+4.	Dynamic Compass (1 hour)
+5.	Views (satellite, Earth, street) (1 hour)
+6.	Zoom in/out (1 hour)
