@@ -47,6 +47,7 @@ everyone is tester at the end
 
 Development plan
 In the app_dev repo
-Now we have 2 branches: Master, app_dev
-We work on app_dev only, then later we merge it to master at the end of each sprint.
+Now we have 2 branches: Master, dev
+We work on dev only, then later we merge it to master at the end of each sprint.
+Each sprint is one week.
 Leader will then send Master to Martin as a release.
