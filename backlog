@@ -13,3 +13,9 @@ Release Backlog version 1
 4.	Dynamic Compass (1 hour)
 5.	Views (satellite, Earth, street) (1 hour)
 6.	Zoom in/out (1 hour)
+Product Backlog version 2
+•	Set up server for communication 
+•	App send information to server
+•	using CSV file to store phoneID, entryID, Lat, Long
+•	The information is sent regularly to the server
+•	If internet is not avaliable, the data is stored in a temporary cache
