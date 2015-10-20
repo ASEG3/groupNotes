@@ -1,0 +1,29 @@
+Adapt your app so it 'phones home' regularly, sending the phone's current GPS location 'home' At the same time, write a 'home' process that receives the data over the internet and writes it to a file
+•	Sends a message to home
+o	Message is a POST request to home
+•	Home is a cloud server
+o	Cloud server can be changed 
+	Can be changed by:
+•	Developers (Through update)
+•	Message information is processed as a CSV  file
+o	Information is GPS location as longitude and latitude 
+•	Regularly
+o	App will contact server every 15 minutes automatically as part of a background service.
+	Ensures that if users decides to manually update location, they wont exceed the set limit of server requests we have imposed on server account
+Scenarios:
+Alice is using Findmii, and Alice goes to Wonderland with White Rabbit. Alice lost her way and unfortunately, there is no internet available in Wonderland. Findmii stores  information in a temporary cache.
+
+
+POINTS RAISED/CONSIDERED:
+Case: User can change sever location
+For:
+If the server goes down, the application is essentially temporarily broken. The user, if advanced, could have the option to change the URL whilst waiting for an update to be issued. This is because Apple/Google can take a long time to accept a given update, e.g. because they check for malicious code in the application.
+Against:
+	Reason 1: Assuming we have both Apple and Google servers, when either one is broken, shouldn’t the app automatically switch to the other one? We should not need the user to change it manually.
+Example:
+Use switch statements to effectively ping servers for a response to check if they are still running.
+
+Reason 2:
+Malicious tutorials could convince user(s) to change their URL to a server that stores their private GPS location on a different server.
+Even if we allow the user to change server, we could restrict it to GUI buttons only, or implement a parser to check the URL.
+
