@@ -19,3 +19,4 @@ Product Backlog version 2
 •	using CSV file to store phoneID, entryID, Lat, Long
 •	The information is sent regularly to the server
 •	If internet is not avaliable, the data is stored in a temporary cache
+Product Backlog version 3
